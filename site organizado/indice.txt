@@ -1,0 +1,61 @@
+<section class="indice">
+    <div>
+        <h2>indice</h2>
+        <ul>
+            <li>
+                <img src="img/indice.png" alt="">
+                <p><a href="">comércio</a></p>
+            </li>
+            <li>
+                <img src="img/indice.png" alt="">
+                <p><a href="">lazer</a></p>
+            </li>
+            <li>
+                <img src="img/indice.png" alt="">
+                <p><a href="">educação</a></p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+
+STYLE
+.indice{
+    width: 100%;
+    text-align: center;
+}
+.indice h2{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-family: 'Ribeye', sans-serif;
+    font-weight: 300;
+}
+.indice div{
+    width: 30%;
+    border-top: 2px solid #39C607;
+    border-bottom: 2px solid #39C607;
+}
+.indice ul{
+    padding: 0;
+    text-align: left;
+}
+.indice li{
+    margin-left: 100px;
+    padding: 10px 0 10px 0;
+    list-style-type: none;
+}
+.indice li > *{
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.indice a{
+    font-family: 'Imprima', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.indice p{
+    margin-left: 15px;
+}

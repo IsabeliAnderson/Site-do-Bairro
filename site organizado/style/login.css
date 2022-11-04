@@ -1,0 +1,61 @@
+.formulario{
+    margin-top: 20vh;
+    text-align: center;
+}
+.formulario h2{
+    font-family: 'Ribeye';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    color: white;
+    text-decoration: underline green 2px;
+    margin:0px;
+}
+button a{
+   font-style: white;
+}
+form{
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+}
+form div{
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+form input{
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 8px;
+}
+form div > *{
+    display: block;
+}
+.retangulo{
+    width: 708px;
+    height: 48px;
+    background-color: white;
+    border-radius: 5px;
+}
+.formulario button{
+    margin: 150px;
+    width: 212px;
+    background-color: #743500;
+    font-family: 'Ribeye';
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.formulario p{
+    margin:0px;
+}
+
+.entrar a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}

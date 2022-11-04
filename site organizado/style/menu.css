@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #252525;
+}
+header{
+    top: 0;
+    position: fixed;
+    z-index: 5;
+    background-color: #252525;
+    width: 100%;
+    display: table;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+}
+header > *{
+    display: table-cell;
+    vertical-align: middle;
+}
+header .logo{
+    padding-left: 20px;
+}
+header nav{
+    float: right;
+    width: 70%;
+}
+header li{
+    display: inline-block;
+    padding: 2px 20px 2px 20px;
+}
+header li:hover{
+    background-color: #414141;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+header a{
+    font-family: 'Ribeye', sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+}
+header li:hover{
+    background-color: #414141;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+aside{
+    position: absolute;
+    width: 100px;
+    background: linear-gradient(270deg, rgba(26, 26, 26, 0.62) 32.35%, rgba(37, 37, 37, 0.69) 85.29%);
+    transform: rotate(-180deg);
+}
+section{
+    width: 100%;
+}
+section > div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
+section h1{
+    font-family: 'Ribeye Marrow', sans-serif;
+    font-size: 7em;
+    line-height: 0;
+    font-weight: lighter;
+    color: #69AF50;
+}
+.local > *{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    line-height: 0;
+}

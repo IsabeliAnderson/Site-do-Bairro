@@ -1,0 +1,104 @@
+main {
+  text-align: center;
+  scroll-behavior: smooth;
+}
+.indice {
+  width: 100%;
+  text-align: center;
+}
+.indice h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-family: "Ribeye", sans-serif;
+  font-weight: 300;
+}
+.indice div {
+  width: 30%;
+  border-top: 2px solid #39c607;
+  border-bottom: 2px solid #39c607;
+}
+.indice ul {
+  padding: 0;
+  text-align: left;
+}
+.indice li {
+  margin-left: 100px;
+  padding: 10px 0 10px 0;
+  list-style-type: none;
+}
+.indice li > * {
+  display: inline-block;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.indice a {
+  font-family: "Imprima", sans-serif;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.indice p {
+  margin-left: 15px;
+}
+.titulo {
+  font-size: 2.5em;
+  font-family: "Ribeye", sans-serif;
+  color: #69af50;
+}
+.mapas p {
+  color: white;
+  font-size: 1em;
+  font-family: "Inter";
+}
+.localidade {
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+.localidade p {
+  font-size: 1.1em;
+  font-family: "Inter", sans-serif;
+}
+.localidade img {
+  width: 100%;
+}
+section table {
+  display: inline-block;
+}
+asection {
+  text-align: center;
+}
+section table td {
+  color: white;
+  border: 2px solid green;
+  border-radius: 13px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+section h2 {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Ribeye", sans-serif;
+  text-transform: uppercase;
+  color: #69af50;
+}
+.fonte {
+  text-align: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
+.text-rodovia{
+  font-weight: bold;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  -webkit-text-stroke: 1px rgba(131, 40, 9, 0.73);
+}
